@@ -4,10 +4,10 @@
     "slug": "fakeLive",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/virtuallivelogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/virtuallivelogomini.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/virtuallivelogomini.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.justariel.virtualLive"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/virtuallivelogomini.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8115c71-0247-4330-818d-f1bbabf85be3"
+      }
     }
   }
 }
